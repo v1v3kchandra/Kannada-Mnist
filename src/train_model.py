@@ -13,9 +13,9 @@ import numpy as np
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 
-train_csv=pd.read_csv("/train.csv")  # training csv file
-test_csv=pd.read_csv("/test.csv")    # testing csv file
-val_csv=pd.read_csv("/val.csv")    #validating csv file
+train_csv=pd.read_csv("/train.csv")  # path of training csv file
+test_csv=pd.read_csv("/test.csv")    # path of testing csv file
+val_csv=pd.read_csv("/val.csv")    # path of validating csv file
 
 x_train=train_csv.iloc[:,1:]    # separating the feature columns from the labels column of training data(features for training)
 y_train=train_csv.iloc[:,0]     # separating labels of test dataset from the feature columns(labels for training)
