@@ -16,8 +16,8 @@ green = (0,128,0)
 dim=(28,28)
  
 
-image_dump="/home/vivek/Kannada_mnist/image_dump/"     #path to dump the image
-model=load_model("/home/vivek/Kannada_mnist/model/Kan_mnist_model.hdf5")      #load the trained model
+image_dump="/image_dump/"     #path to dump the image ,mention the path to 'image_dump' folder
+model=load_model("/Kan_mnist_model.hdf5")      #load the trained model,provide the path of the trained model
 
 def paint(event):   
      
