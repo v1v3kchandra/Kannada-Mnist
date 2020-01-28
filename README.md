@@ -6,7 +6,7 @@ A CNN model is used to train and predict the handwritten digits of kannada langu
 - Opencv(cv2)	
 - Tkinter	
 - Pandas and numpy
-## Directiry Structure
+## Directory Structure
 - data
   -contains the train.csv ,val.csv and test.csv file
 - model
