@@ -13,9 +13,9 @@ import numpy as np
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 
-train_csv=pd.read_csv("/home/vivek/Kannada_mnist/data/train.csv")  # training csv file
-test_csv=pd.read_csv("/home/vivek/Kannada_mnist/data/test.csv")    # testing csv file
-val_csv=pd.read_csv("/home/vivek/Kannada_mnist/data/Dig-MNIST.csv")    #validating csv file
+train_csv=pd.read_csv("/train.csv")  # training csv file
+test_csv=pd.read_csv("/test.csv")    # testing csv file
+val_csv=pd.read_csv("/val.csv")    #validating csv file
 
 x_train=train_csv.iloc[:,1:]    # separating the feature columns from the labels column of training data(features for training)
 y_train=train_csv.iloc[:,0]     # separating labels of test dataset from the feature columns(labels for training)
@@ -67,7 +67,7 @@ model_kannada_mnist.compile(loss="categorical_crossentropy",optimizer="adam",met
 
 print(model_kannada_mnist.summary())
     
-model_save_filepath = "/home/vivek/Kannada_mnist/model/Kan_mnist_model.hdf5"     # mention path where the model needs to be saved
+model_save_filepath = "/Kan_mnist_model.hdf5"     # mention path where the model needs to be saved
 
 checkpoint=ModelCheckpoint(model_save_filepath,monitor="val_acc",verbose=0,save_best_only=True,save_weights_only=False,mode="auto",period=1)
 
