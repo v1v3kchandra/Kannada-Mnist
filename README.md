@@ -18,6 +18,10 @@ A CNN model is used to train and predict the handwritten digits of kannada langu
   -contains train_model.py- to train the model and main.py- to open gui to draw kannada digits and predict.
 - image dump
   -every image drawn is stored here( future use- could be used as dataset for training)
-## Visuals
+## Demo
   !["Demo"](/demo/Kannada_canvas.gif)
- 
+## Note
+- The train.csv is compressed to .zip folder in the data folder, download and extract this folder to get the train.csv.(kindly oblige for the inconvenience caused)
+- For those who want to train the model from scratch please mention the path of the 'models' folder to save the model after training, in the train_model.py
+- Kindly mention the 'image_dump' folder path in the main.py to dump the images drawn on the canvas to this folder.
+All queries are appreciated regarding the project.
