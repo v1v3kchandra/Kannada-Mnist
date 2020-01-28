@@ -8,7 +8,7 @@ A CNN model is used to train and predict the handwritten digits of kannada langu
 - Pandas and numpy
 ## Understanding the Data
 - The numericals in kannada is as follows
-!["Numericals"](/demo/kannadadigits.png)
+!["Numericals"](/demo/kannadadigits.jpg)
 ## Directory Structure
 - data
   -contains the train.csv ,val.csv and test.csv file
