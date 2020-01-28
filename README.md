@@ -8,12 +8,12 @@ A CNN model is used to train and predict the handwritten digits of kannada langu
 - Pandas and numpy
 ## Directiry Structure
 - data
-  contains the train.csv ,val.csv and test.csv file
+  -contains the train.csv ,val.csv and test.csv file
 - model
-  contains the pretrained model.
+  -contains the pretrained model.
 - src
-  contains train_model.py- to train the model and main.py- to open gui to draw kannada digits and predict.
+  -contains train_model.py- to train the model and main.py- to open gui to draw kannada digits and predict.
 - image dump
-  every image drawn is stored here( future use- could be used as dataset for training)
+  -every image drawn is stored here( future use- could be used as dataset for training)
  
  
