@@ -16,5 +16,5 @@ A CNN model is used to train and predict the handwritten digits of kannada langu
 - image dump
   -every image drawn is stored here( future use- could be used as dataset for training)
 ## Visuals
-  ![](/home/vivek/Downloads/Kannada_canvas.gif)
+  !["Demo"](/demo/Kannada_canvas.gif)
  
